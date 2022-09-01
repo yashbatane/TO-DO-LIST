@@ -1,0 +1,58 @@
+textarea {
+  background-color: aliceblue;
+  outline: none;
+  caret-color: black;
+  font-weight: bold;
+  position:relative;
+  
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.addsign {
+  color: orange;
+  background-color: aliceblue;
+  margin-left:-3%;
+  position: absolute;
+ margin-top: 20px;
+  
+ 
+}
+.addsign:hover {
+  color: green;
+}
+
+.Showitembox {
+  background-color: aliceblue;
+  font-weight: bold;
+
+}
+
+.removesign {
+  color: orange;
+}
+
+.removesign:hover {
+  color: red;
+}
+
+.editsign {
+  color: green;
+  margin-right: 15px;
+}
+
+.editsign:hover {
+  color: rgb(150, 241, 150);
+
+}
+.Showitembox .col-12{
+  word-break:break-all;
+}
+@media (max-width:288px) {
+  .addsign{
+    margin-left: -10%;
+  }
+  
+}
